@@ -4,7 +4,7 @@
 
 To accommodate the spreadsheet containing the data to process.
 
-## Open Tickets
+## Open Tickets Folder
 
 To accommodate the processed spreadsheets from Zoho
 
