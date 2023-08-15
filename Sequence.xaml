@@ -1,0 +1,179 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="632,1876.6666666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="642,1812" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ProjectPath">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">C:\Users\PKIPOSMET\Desktop\RPA\RPACapstone</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: (7) moringastudent" sap:VirtualizedContainerService.HintSize="580,1701.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="453c21c8-e055-4216-945f-3f7ec71a2395" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,1482" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="484,84.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://desk.zoho.com/agent/moringastudent/moringastudent/tickets/list/all-cases?view=classic" Version="V3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'" sap:VirtualizedContainerService.HintSize="484,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="453c21c8-e055-4216-945f-3f7ec71a2395" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/moringastudent/moringastudent/tickets/list/all-cases?view=classic" CvType="ArrowButton" DesignTimeRectangle="399, 280, 11, 11" DesignTimeScaleFactor="1.5" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;desk&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;article&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div&amp;gt;i' isleaf='1' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='I' class='zd_font_icons zd13bca50f0a zdc08a9260ab' aaname='' /&gt;" Guid="4252ec89-93ec-4c61-9135-0b465885dd00" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB4SURBVDhPY/hPARjKmj8dXfW/pnni/4pGArh5yv/5Rz+CNYIAxOa3Z//P78SiGB13rvp//i1YBxggnP2SgAFAjadfQtVCAaqfcRmARSMIYAYYugE4NIIApmYQgBmARyMIYNcMAt+//v/+HcrGAXBrJgIMSc3//wMAnY5EGZlTh34AAAAASUVORK5CYII=" InformativeScreenshot="74b172c550b090bb0fc458c84a464f28.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='moringastudent' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'All Views'" sap:VirtualizedContainerService.HintSize="484,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="453c21c8-e055-4216-945f-3f7ec71a2395" Timeout="30" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/moringastudent/moringastudent/tickets/list/all-cases?view=classic" CvTextArgument="ALL VIEWS" CvType="Text" DesignTimeRectangle="209, 507, 302, 24" DesignTimeScaleFactor="1.5" FriendlyName="'All Views'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;desk&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;article&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div&amp;gt;div' idx='4' parentid='ZD_42' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='zd-menutreetitle-titleSec zd050393fdda zdd6f24eb601 zd577c9fa95f' parentid='ZD_42' tag='DIV' aaname='' check:innerText='ALL VIEWS' /&gt;" Guid="fffa8149-8018-4812-b2e5-fa130b8e73a7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAATIAAAAcCAYAAADiFzM3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAASsSURBVHhe7ZvNKz1RGMd//5O1hYVsbEiJkizYIBt5KaSkvMQGIWLDykuSyIKyEAlJWCiSosj7O8Xz63vMc83MPePqZ363pr6fOsmZM/ecO3U+nueZ448QQkjEocgIIZGHIiOERB6KjBASeSgyQkjkocgIIZGHIiOERJ5AkU1NTUlKSorU19fL4+Oj0+tldnZW8vLy5OjoyOmxc3NzI2VlZTIwMOD0/IynpydpbGwMXMPLy4s0NzebMRgLdC7047qCNWKt+E62trW1ZcZdX19LeXl53P1gdXVVMjIyZG9vz+n55Pb2VioqKqS/v18+Pj6c3s/1j42NSWFhoZkjOztbhoeHzXhCSHhYRaYCwebLysqS/f1954qX/y0yAKEGrUHlhDFKIpFNTk6aMf729vZmxr2/v0t3d7eUlJTI+fm56QPo7+3tNc9kdHTU6f0Ea8Mal5aWnJ5Pyba2tkppaalsbGyYOVZWVqSgoECqq6spM0JCxCqyg4MDycnJkb6+PikqKorbuEoyRKZrmZiYcHq+WFhYMNcwRtG5gkSGNScCQkpNTY1FaUAjNYjMHyHangOiNkRviOLcQHqQmVt6hJDfYRUZIhxsTGy69vZ2qaqqkvv7e+fqF8kQWVB6+fr6atbmTitBGCLTsW6BQ0xIDdva2jzfWSM4//q2t7eNDJeXl50eQsj/Ik5kKg4VAaIeRBY7OzvOiC+SITIAsfojr5OTE1N78ospDJFBSBBTU1OTPD8/mz5EhIjIEKXhczSi0khtaGjI/K4gdUQKqWNtfwgIIeEQJzJN5XTDqzBGRkY8hWyQLJHpmty1MAjWNncikeXn55u6lbv5i/cA0RjS6tPT05jcUSO7u7szkkMUhmgsKIUEV1dXpriPSE6L/Z2dnXJ4eBj3LAkh/06cyBB5uAWhKVxlZWVcgTpZIlORaBqpa/LLCiQSGd4srq+vexqiKj8o0EM+EJTeq7LS6Az3zczMxIQXBKR1cXEhi4uLZm1IOefn552rhJDf4hGZplQNDQ1ydnZmpIA2PT1tTS+TJTLgTi8hDcjDliYmEpntHhs6B1JGpIZuWWm9bHNzUzo6OqxCDeLh4cE8X39NjRDy73hEpscIEInY2uDgoCclSqbI3OklxBI0b1giw734jNraWvMTESAiQaB1MRyvwDEN/1tdpJxra2vS1dVlPWaB54A1Yq2EkN/jEZk/rVQ0ldN0SkmmyDS9rKmp8byM8BOWyACeB9LA9PR0z336phJy9x/TUFDDw7W5uTmP/FH0r6urM5Gcnl0jhPyOmMg0rXRHHm50Y7o3LTZ3bm6u7O7uGoG4GzasbmCVS09PT9w4tJ9uaERjGh0GCQmf953Igg7E2tI8LeTbDuQiKsQ6/AdnFYi3paVF0tLSZHx8XC4vL+X4+NisCy9PUPAnhIRDTGSaVkJYNrBZsWnx5g4RCYBMVCz+5hYJRAG52Mah2SIaG5pefhcF6lxBIrPNj2aLFjWFtNWztIb2XWQFmeFflIqLi80cmZmZZjzeBBNCwsOTWhJCSBShyAghkYciI4REHoqMEBJ5KDJCSOShyAghkYciI4REHoqMEBJ5KDJCSMQR+QvCCQOhDakjiwAAAABJRU5ErkJggg==" InformativeScreenshot="708dd60798fb82d118cc71978eda5edd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='moringastudent' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Open Tickets'" sap:VirtualizedContainerService.HintSize="484,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="453c21c8-e055-4216-945f-3f7ec71a2395" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/moringastudent/moringastudent/tickets/list/all-cases?view=classic" CvTextArgument="Open Tickets" CvType="Text" DesignTimeRectangle="209, 629, 288, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Open Tickets'" FullSelectorArgument="&lt;webctrl aaname='Open Tickets' parentid='ZD_42' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Open Tickets' parentid='ZD_42' tag='A' type='' class='zd_a_tag zd-menutreepopup-treeName zd4af66c9aeb zd050393fdda zdd6f24eb601 zd577c9fa95f' check:innerText='Open Tickets' /&gt;" Guid="e2c6dad5-15d7-4598-899f-1551b8136e62" ImageBase64="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" InformativeScreenshot="7b6b4646de413cf5c3a2f722707a7cce.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='moringastudent' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: (11) moringastudent" sap:VirtualizedContainerService.HintSize="484,648.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="4eedb22e-7ff9-4e2c-895c-af7cfea48a33" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,429.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Ticket Number' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Subject' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Ticket Owner' ReferenceName='Column2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='alt'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='4' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="388,160" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="453c21c8-e055-4216-945f-3f7ec71a2395" Version="V3">
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="341, 321, 1590, 668" DesignTimeScaleFactor="1.5" FriendlyName="'Modem Request'" FullSelectorArgument="&lt;webctrl aria-role='list' tag='DIV' /&gt;" Guid="f932cfbe-76cf-4060-851f-8d35d3700b7f" InformativeScreenshot="db793e77f3c1d141fc69f7007b05c509.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='moringastudent' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="OpenTickets" WorkbookPath="[ProjectPath+&quot;\OpenTickets\OpenTickets.xlsx&quot;]" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKHSURBVDhPhZPtS5NRGMYlC6GIgqh/oL70tRd6xTKyPhSB9CXog5EV5tRlpYsSEgTBysKyDKtVEKlMp9uojEjH3ObLJEW3ls5cb3PTLefUvbjHPVf3OTvSB3u54Dee5z7XdXN27vOk/EsANkuJhZ5ANCRPRIJgzMbpB7hDrBG2v4tMpTq3BXtblNjXWoT0lgvIaruOvskRidYUwvZnkWEZ0VDYWYMzHbfQ7fsIs3cIp9pvIM9UTUtoIVYI+1LR4qp4Quo83laGQ4YS6N1WFkKZ7TkUprvssZFIFfakqLCS2EJkEkeI3jdfe3H01TUc0F3GXDyK7PeVqBrQ0BIqRCwpKqxPyPJT94w32O1zxmjLsZ4J50K/fxQlXXU4+a4Cofkw3412rJM1yBHRpKhQZPQMyLu1BWCwg9ujLeRs05zHs09v8W12AjuaFbBNDkfInyGiPJxKaPLpvynNNXDP+NDvd8EXmeL4o9MY+unmB5ipL6FxTn0n/yYR5w3WhqWY7djrUtS72mEn80F9MZo+mxCMzaLWrsf2pjycM97GyDTL4h6xXMR5g42eucAPtm2L1w46C77lrZpc7GouQIbuElrHLDCND9IdGGYNropoUlRI/+B3hXc259P2vczAZfU58NBhwHg4wN9z6D5U9jewx5simhQVsnVuq8y2PRMPM8MShaUoDhtUaBw1stdcEU2KCuXVg1qwS9Po6oCKxsZGt4iq6xHOGqv4OTimvsyRf7+I8jCbwEul+T7WqbP42IosD3CFQouwBqU9anTQmOl86sm/WsR5gzRZlg3lfS9w0VKL0ZCHfW3snj8mngjURB2hIDaI6G9R8XREigXnE5KTnk8QaWLpP0pJ+QXgDlI/XSFonAAAAABJRU5ErkJggg==" InformativeScreenshot="154e6596c16a36d75722b44d5d5a1629.jpg" Selector="&lt;html app='chrome.exe' title='(11) moringastudent' /&gt;" Title="(11) moringastudent" Url="https://desk.zoho.com/agent/moringastudent/moringastudent/tickets/list/all-cases?view=classic" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKHSURBVDhPhZPtS5NRGMYlC6GIgqh/oL70tRd6xTKyPhSB9CXog5EV5tRlpYsSEgTBysKyDKtVEKlMp9uojEjH3ObLJEW3ls5cb3PTLefUvbjHPVf3OTvSB3u54Dee5z7XdXN27vOk/EsANkuJhZ5ANCRPRIJgzMbpB7hDrBG2v4tMpTq3BXtblNjXWoT0lgvIaruOvskRidYUwvZnkWEZ0VDYWYMzHbfQ7fsIs3cIp9pvIM9UTUtoIVYI+1LR4qp4Quo83laGQ4YS6N1WFkKZ7TkUprvssZFIFfakqLCS2EJkEkeI3jdfe3H01TUc0F3GXDyK7PeVqBrQ0BIqRCwpKqxPyPJT94w32O1zxmjLsZ4J50K/fxQlXXU4+a4Cofkw3412rJM1yBHRpKhQZPQMyLu1BWCwg9ujLeRs05zHs09v8W12AjuaFbBNDkfInyGiPJxKaPLpvynNNXDP+NDvd8EXmeL4o9MY+unmB5ipL6FxTn0n/yYR5w3WhqWY7djrUtS72mEn80F9MZo+mxCMzaLWrsf2pjycM97GyDTL4h6xXMR5g42eucAPtm2L1w46C77lrZpc7GouQIbuElrHLDCND9IdGGYNropoUlRI/+B3hXc259P2vczAZfU58NBhwHg4wN9z6D5U9jewx5simhQVsnVuq8y2PRMPM8MShaUoDhtUaBw1stdcEU2KCuXVg1qwS9Po6oCKxsZGt4iq6xHOGqv4OTimvsyRf7+I8jCbwEul+T7WqbP42IosD3CFQouwBqU9anTQmOl86sm/WsR5gzRZlg3lfS9w0VKL0ZCHfW3snj8mngjURB2hIDaI6G9R8XREigXnE5KTnk8QaWLpP0pJ+QXgDlI/XSFonAAAAABJRU5ErkJggg==" InformativeScreenshot="86dd8e7cb36232377b0fa5957746f669.jpg" Selector="&lt;html app='chrome.exe' title='(7) moringastudent' /&gt;" Title="(7) moringastudent" Url="https://desk.zoho.com/agent/moringastudent/moringastudent/dashboard" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
