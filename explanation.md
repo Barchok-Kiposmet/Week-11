@@ -6,7 +6,7 @@ To accommodate the spreadsheet containing the data to process.
 
 ## Open Tickets Folder
 
-To accommodate the processed spreadsheets from Zoho
+To accommodate the processed spreadsheets from Zoho with an updated date and time
 
 * There are 3 types of xaml files used to create automation, these are as follows;
 
