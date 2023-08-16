@@ -1,9 +1,9 @@
 # Creation of folders
 
-* Requests Folder
-- To accommodate the spreadsheet containing the data to process.
+## Requests Folder
+To accommodate the spreadsheet containing the data to process.
 
-* Open Tickets Folder
+## Open Tickets Folder
 - To accommodate the processed spreadsheets from Zoho with an updated date and time
 
 ## Type of XML files used:
