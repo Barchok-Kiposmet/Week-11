@@ -20,4 +20,4 @@ This picks all the tickets in Zoho, extracts and outputs into an excel with a da
 SaaS - Software as a Service
 Zoho application is used here to obtained/read data from Request file to create support ticket/job card. 
 
-NB: Enhanced the "attended automation" type of RPA by including Stop Automation using hotkey triggers. ie. Ctl + k
+NB: Enhanced the "attended automation" type of RPA by including Stop Automation using hotkey triggers. ie. Esc
