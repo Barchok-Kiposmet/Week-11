@@ -14,7 +14,7 @@ This is the main workflow which will invoke other workflows and orchestrate the 
 
 ### ReadRequest.xaml
 
-This picks the Request Excel file from the folder we created, read the ticket data, and incorporate them in variables for the next workflow to process.
+This picks all the tickets in Zoho, extracts and outputs into an excel with a date and time stamp.
 
 ### SaaSAutomation.xaml (embeded in the main and not separate)
 SaaS - Software as a Service
